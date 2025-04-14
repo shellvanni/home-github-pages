@@ -1,19 +1,40 @@
+/* Telvanni-inspired design */
 body {
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-  }
-  
-  h1, h2, h3 {
-    color: #5a3d99;
-  }
-  
-  a {
-    color: #5a3d99;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: 'Uncial Antiqua', cursive;
+  line-height: 1.6;
+  background-color: #2e1a47; /* Dark purple */
+  color: #d4c4a8; /* Light parchment */
+  background-image: url('/assets/images/telvanni-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  color: #a29bfe; /* Mystical purple */
+}
+
+a {
+  color: #81ecec; /* Magical teal */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #a29bfe;
+  text-shadow: 0 0 5px #81ecec;
+}
+
+header {
+  background-color: #1e1033; /* Darker purple */
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #81ecec;
+}
+
+footer {
+  background-color: #1e1033;
+  color: #d4c4a8;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #81ecec;
+}

@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-          <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-        </ul>
-      </nav>
+      <h1 style="font-family: 'Uncial Antiqua', cursive; color: #81ecec;">Tower of Shellvanni</h1>
+      <p style="font-style: italic; color: #d4c4a8;">"A Telvanni wizard's journey to building a tower"</p>
     </header>
     <main>
       {{ content }}
