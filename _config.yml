@@ -1,2 +1,8 @@
 title: Tower of Shellvanni
 theme: minima
+sass:
+  style: compressed
+include:
+  - assets/css/style.css
+description: A Telvanni wizard's journey to building a tower
+author: Shellvanni
